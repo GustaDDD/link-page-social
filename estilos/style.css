@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*
+-Green: hsl(75, 94%, 57%)
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%)*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "inter", sans-serif;
+
+    
+}
+body{
+    width: 100vw;
+    
+}
+
+ html{
+    height:100vh;
+    background: url(../imagem/pexels-slendyalex-3648850.jpg)no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+img{
+    width:75px;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+}
+ 
+div#card{
+    background-color:  hsl(0, 0%, 12%);
+    width: 300px;
+    height: 550px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+
+}
+p{
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+
+
+}
+p#local{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    padding-top: 15px;
+
+}
+ a{
+    font-weight: bolder;
+    color:white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 15px;
+ }
