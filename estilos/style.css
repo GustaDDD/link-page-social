@@ -54,6 +54,7 @@ p{
     text-align: center;
     color: white;
     padding-top: 15px;
+    padding-bottom: 15px;
 
 
 }
@@ -72,4 +73,7 @@ p#local{
     padding: 15px;
     background-color: hsl(0, 0%, 20%);
     font-size: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
  }
